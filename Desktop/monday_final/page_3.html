@@ -1,0 +1,97 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+
+#loading-img{
+display:none;
+}
+
+.response_msg{
+margin-top:10px;
+font-size:13px;
+background:#E5D669;
+color:#ffffff;
+width:250px;
+padding:3px;
+display:none;
+}
+p.b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+</head>
+<body>
+	<font size="2px">
+
+<div class="container">
+<div class="row">
+
+<div class="col-md-18">
+	<font color="green">
+<h1>Application For Registration /Renewal As A Silkworm Seed Cocoon Producer</font></h1><hr>
+<p class ="b">
+
+<form name="contact-form" action="p3.php" method="post" id="contact-form">
+
+<div class="form-group">
+<div class="form-group">
+	<label for="sector">Sector *(TICK)</label><br>
+	<pre class="tab">
+    <b><h5>
+
+<input type="checkbox" name="sector[]" value="mulberry"> Mullberry  <input type="checkbox" name="sector[]" value="tasar"> Tasar     <input type="checkbox" name="sector[]" value="otasar"> Oak Tasar    <input type="checkbox" name="sector[]" value="eri"> Eri   <input type="checkbox" name="sector[]" value="muga"> Muga</b> </h5></pre>
+</div>
+
+<div class="form-group">
+	<label for="sector">Applicant type *(TICK)</label><br>
+	<pre class="tab"><b><h5>
+<input type="radio" name="govt" value="government"> Government  <input type="radio" name="govt" value="private"> Private     <input type="radio" name="govt" value="ngo"> NGO's</b> </h5></pre>
+</div>
+
+<div class="form-group">
+	<label for="sector">Rearing House Ownership *(TICK)</label><br>
+	<pre class="tab"><b><h5>
+<input type="radio" name="own" value="own"> Own  <input type="radio" name="own" value="leased"> Leased     <input type="radio" name="own" value="rented"> Rented </b> </h5></pre>
+
+<div class="form-group">
+	<label for="sector">Mulbery garden/host plant *(TICK)</label><br>
+	<pre class="tab"><b><h5>
+<input type="radio" name="ow" value="own"> Own  <input type="radio" name="ow" value="leased"> Leased </b> </h5></pre>
+
+<div class="form-group">
+<label for="capacity">Capacity of the reaaring house</label>
+<input type="text" class="form-control" name="capacity" placeholder="Ex:A" required>
+</div>
+
+<div class="form-group">
+	<label for="sector">Mulbery/Host plant *(TICK)</label><br>
+	<pre class="tab"><b><h5>
+<input type="checkbox" name="acr[]" value="acerage"> Acreage  <input type="checkbox" name="acr[]" value="variety"> Variety </b> </h5></pre>
+
+<div class="form-group">
+	<label for="sector">Year Of Established</label><br></div>
+	<pre class="tab"><b><h5>
+Year<input type="number" name="yr"></b> </h5></pre></b></pre></div>
+<div class="form-group">
+	<label for="sector">Demand Draft Number And Date</label><br></div>
+	<pre class="tab"><b><h5>
+D/D Number  <input type="number" name="dd" > Date <input type="date" name="dt" value="dt">  </b> </h5></pre></b></pre><br>
+<div class="form-group">
+	<label for="sector">Any Others Details</label></div>
+	<pre class="tab"><b><h5>
+Other Deatils<textarea name="text1" cols="40" rows="3" class="form-control" name="dt"></textarea>
+ </b> </h5></pre></b></pre>
+</p>
+
+
+
+<button type="submit" form="contact-form" class="btn btn-primary" name="Next_2" value="Submit">Submit</button>
+</div>
+</div>
+</div>
+
+</body>
+</html>

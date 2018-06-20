@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="update-manager.desktop" open-window-count="1" score="6.5" last-seen="1529473615"/>
+    <application id="org.gnome.DiskUtility.desktop" open-window-count="0" score="0.00030517578125" last-seen="1529472090"/>
+    <application id="software-properties-gtk.desktop" open-window-count="0" score="34.125244140625" last-seen="1529473519"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="18745.817932128906" last-seen="1529473836"/>
+    <application id="gnome-control-center.desktop" open-window-count="1" score="5.0001220703125" last-seen="1529473576"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1529511536"/>
+    <application id="firefox.desktop" open-window-count="1" score="15.625" last-seen="1529473773"/>
+  </context>
+</application-state>
